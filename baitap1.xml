@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE student SYSTEM "./student.dtd"> -->
+<?xml-stylesheet href="product.xslt" type="text/xsl"?>
+<?xml-stylesheet href="./product.css" type="text/css"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./product.xsd">
+<image class="image" src ="https://cdn.tuoitre.vn/471584752817336320/2023/6/14/mg7-2-16867404859611015382730.jpg"></image>
+<name>Car Black MG7</name>
+<describe>This is product</describe>
+    <information>
+        <price>200$</price>
+        <quantity>100 pcs</quantity>
+    </information>
+</product>
