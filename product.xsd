@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="product">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="image"></xsd:element>
+                <xsd:element name="name"  type="xsd:string"></xsd:element>
+                <xsd:element name="describe" type="xsd:string"></xsd:element>
+                <xsd:element name="information">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="price" type="xsd:string"></xsd:element>
+                            <xsd:element name="quantity" type="xsd:string"></xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+
+    </xsd:element>
+</xsd:schema>
